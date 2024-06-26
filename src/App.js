@@ -60,10 +60,11 @@ function App() {
           Move Cube
         </button>
       </div>
-      <Spline scene="https://prod.spline.design/XrcYRWmi48eHtyV4/scene.splinecode"/>
-      <button type="button" className='text-9xl font-serif' onClick={()=>alert("Hello! I am an alert box!!")}>
-          CLICK
-        </button>
+      <Spline scene="https://prod.spline.design/XrcYRWmi48eHtyV4/scene.splinecode" />
+      <button type="button" className='text-9xl font-serif' onClick={() => alert("Hello! I am an alert box!!")}>
+        CLICK
+      </button>
+      <Spline scene="https://prod.spline.design/lMg4UptGcosxWYBN/scene.splinecode" />
 
     </div>
   )
